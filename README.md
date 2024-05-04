@@ -1,5 +1,3 @@
-# 00.GeneralIntroduction
-
 # Section 1. General introduction
 
 ## 1.1 Computers and programming languages
