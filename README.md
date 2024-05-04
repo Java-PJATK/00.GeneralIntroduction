@@ -16,9 +16,9 @@ According to Stack Overflow, among professional developers 50% uses Windows, 27%
 
 * Byte: — a sequence of 8 bits. There are 28 = 256 such sequences possible; interpreted as numbers in the binary system, they assume values in the closed interval \[0, 255\].
 
-* hexadecimal notation: — very practical, because four bits can be in exactly 2[1](#bookmark2) = 16 combinations, so there is a one-to-one correspondence between any sequence of four bits and a single digit in hexadecimal notation (0-9, A, B, C, D, E, F — hex-digits A-F can also be written in lowercase). It follows that there is a one-to-one correspondence between all possible bytes and all sequences of exactly two hex-digits. For example 25510 = 111111112 = FF16 and 4610 = 001011102 = 2E16.
+* hexadecimal notation: — very practical, because four bits can be in exactly 2[1](#bookmark2) = 16 combinations, so there is a one-to-one correspondence between any sequence of four bits and a single digit in hexadecimal notation (0-9, A, B, C, D, E, F — hex-digits A-F can also be written in lowercase). It follows that there is a one-to-one correspondence between all possible bytes and all sequences of exactly two hex-digits. For example 255<sub>10</sub> = 11111111<sub>2</sub> = FF<sub>16</sub> and 46<sub>10</sub> = 00101110<sub>2</sub> = 2E<sub>16</sub>.
 
-4\.    Processor: — is what ‘does the job’ in the computer. Important components of a processor are registers — information, in the form of sequences of bits, can be stored there and manipulated by instructions, which themselves are also expressed as sequences of bits. There is a limited number of instructions that any given processor ‘understands’ (its instruction set). These are elementary instructions, like ‘set a register X to a value’, ‘copy data from a memory location M to the register Y’ (or vice versa), ‘add (subtract, multiply, divide) the values of two registers, X and Y, and place the result in register Z’, and so on. It is important to realize that no matter what programming language we use, our program must be ultimately somehow transformed into the form of a long sequence of these simple, elementary instructions (i.e., into the form of the machine code or executable).
+4\.    Processor: — is what ‘does the job’ in the computer. Important components of a processor are registers — information, in the form of sequences of bits, can be stored there and manipulated by **instructions**, which themselves are also expressed as sequences of bits. There is a limited number of instructions that any given processor ‘understands’ (its **instruction set**). These are elementary instructions, like ‘set a register X to a value’, ‘copy data from a memory location M to the register Y’ (or vice versa), ‘add (subtract, multiply, divide) the values of two registers, X and Y, and place the result in register Z’, and so on. It is important to realize that no matter what programming language we use, our program must be ultimately somehow transformed into the form of a long sequence of these simple, elementary instructions (i.e., into the form of the **machine code** or **executable**).
 
 5\.    Program: — a sequence of instructions (perhaps from many source files) in any language which, after transforming into machine code, performs an indicated task.
 
@@ -68,7 +68,9 @@ Java — high level imperative programming language, object-oriented with some e
 
 *   ... and much, much more...
 
-Installation: Oracle web pag[e](#bookmark6)[2](#bookmark7) — install something called JDK (Java Development Kit). It installs the JVM (allowing to run Java programs) but also various tools which allow the developer to create Java programs (in particular, the compiler). Documentation — as one big zip file — can also be downloaded, or it can be viewed onlin[e](#bookmark8)[3](#bookmark9).
+## Installation: 
+
+Oracle web [page](#bookmark6)[2](#bookmark7) — install something called JDK (Java Development Kit). It installs the JVM (allowing to run Java programs) but also various tools which allow the developer to create Java programs (in particular, the compiler). Documentation — as one big zip file — can also be downloaded, or it can be viewed [online](#bookmark8)[3](#bookmark9).
 
 Section 2 -
 
