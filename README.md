@@ -34,7 +34,7 @@ According to Stack Overflow, among professional developers 50% uses Windows, 27%
 
     — declarative: relational, functional, logic.
 
-Currently, the most popular programming languages are Java, C/C++, Python and Java Script. On the other hand, popularity of languages depends on the subject domain; for scientific and engineering calculations, the Fortran and Mathe-matica programming languages would be closer to the top of this list, while for statistical applications the language called R is extremely useful and popular.
+Currently, the most popular programming languages are Java, C/C++, Python and JavaScript. On the other hand, popularity of languages depends on the subject domain; for scientific and engineering calculations, the Fortran and Mathe-matica programming languages would be closer to the top of this list, while for statistical applications the language called R is extremely useful and popular.
 
 8\.    Algorithm: — “an unambiguous specification of how to solve a class of problems” (Wikipedia). Therefore, an algorithm is a kind of a recipe which tells us how to obtain the result we want in finite number of steps. For example: given a collection of, say, 3 million, numbers, how to sort them in ascending order? Or, given two whole positive numbers, how to find their greatest common divisor (there is a famous solution of this problem given by Euclid in his _Elements_). Generally, when writing a program or a part of it, what we have to consider first is just an algorithm which should be used to achieve our goal correctly and efficiently.
 
